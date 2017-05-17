@@ -1,0 +1,17 @@
+openbox --config-file /home/pi/.config/openbox/lxde-rc.xml &
+xset dpms 0 0 0
+xset -dpms
+xset s off
+xset s noblank
+
+#wait for network to come online
+while ! nm-online; do
+sleep 5s
+done
+
+#launch swarm, relaunch after 60 sec if it closes or crashes
+cd ~/swarm
+while true; do
+./swarm.sh
+sleep 60s
+done
