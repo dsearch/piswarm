@@ -1,5 +1,5 @@
 #!/bin/sh
-SWARMVERSION=2.7.0
+SWARMVERSION=2.8.9
 
 if [ ! -d ~/swarm ]; then
 echo Downloading swarm.
