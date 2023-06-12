@@ -1,4 +1,6 @@
-﻿# PiSwarm
+﻿# NOTE: THIS REPOSITORY HAS BEEN ARCHIVED AS IT IS NO LONGER MAINTAINED
+ 
+ # PiSwarm
 USGS Swarm on a Raspberry Pi
 
 This is a basic setup for getting a kiosk style disply to work with the USGS Swarm application and data.
